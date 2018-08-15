@@ -37,4 +37,4 @@ onisuly/peerflix-server
 
 ---
 
-Read [Peerflix Server documentation](https://github.com/asapach/peerflix-server/blob/master/README.md) for more information.
+Read [Peerflix Server Readme](https://github.com/asapach/peerflix-server/blob/master/README.md) for more information.

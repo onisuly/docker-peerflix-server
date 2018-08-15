@@ -7,7 +7,7 @@ ARG RUN_DEP="squid openrc apache2-utils"
 USER root
 
 # For build image faster in China
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
+# RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 
 RUN apk add --no-cache $RUN_DEP
 
